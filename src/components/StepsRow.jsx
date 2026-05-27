@@ -3,21 +3,21 @@ import React from 'react'
 const STEPS = [
   {
     num: '01',
-    label: 'Build',
-    title: 'Your physician market, mapped.',
-    body: 'We pull every board-certified MD and DO licensed in your state, filter by specialty mix and commute radius, and refresh monthly. The list is yours from day one.',
+    label: 'We Build',
+    title: 'A system tailored to your practice.',
+    body: 'Designed around your specialty mix, your geography, and the kind of physicians your practice actually wants on the roster.',
   },
   {
     num: '02',
-    label: 'Connect',
-    title: 'Outbound that physicians actually open.',
-    body: 'Email, LinkedIn and direct-mail sequences written for doctors — comp, autonomy, schedule, EHR — and tuned for deliverability. Calls land on your calendar, not ours.',
+    label: 'You Own',
+    title: 'Every component. Forever.',
+    body: 'When the build is done, the system lives inside your practice. No vendor lock-in, no monthly retainer, no commission per hire.',
   },
   {
     num: '03',
-    label: 'Convert',
-    title: 'Hires today, a bench for the next opening.',
-    body: 'Every conversation enriches the pipeline. Physicians who say “not now” stay warm — so when the next role opens, you start from a relationship, not a job post.',
+    label: 'You Hire',
+    title: 'On your terms, without a recruiter.',
+    body: 'Physicians, hired directly into your practice — without ever writing another check to an agency or job board.',
   },
 ]
 
@@ -27,10 +27,10 @@ export default function StepsRow() {
       <div className="container">
         <div className="steps-head">
           <div>
-            <span className="eyebrow">The system</span>
-            <h2>The three moves <em>your practice has to own.</em></h2>
+            <span className="eyebrow">The model</span>
+            <h2>We build the system. <em>You own it.</em></h2>
           </div>
-          <div className="tag">Build · Connect · Convert</div>
+          <div className="tag">Built · Owned · Operated by you</div>
         </div>
 
         <div className="steps-row">

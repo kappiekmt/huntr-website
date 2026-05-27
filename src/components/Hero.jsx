@@ -7,13 +7,12 @@ export default function Hero({ bookHref }) {
         <span className="eyebrow on-dark center">For US Primary Care · Est. 2026</span>
 
         <h1 className="hero-title">
-          Hire the physicians who <span className="accent">never see a job board.</span>
+          We build the recruitment system. <span className="accent">Your practice owns it.</span>
         </h1>
 
         <p className="hero-sub">
-          Huntr builds the in-house recruitment system your practice should already
-          own — so you reach board-certified MDs and DOs directly, and stop paying
-          a year of salary every time you need to fill a chair.
+          Huntr builds an in-house physician recruitment system for your practice —
+          and hands you the keys. No agencies. No commissions. No rented pipelines.
         </p>
 
         <div className="hero-cta-row">

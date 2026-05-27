@@ -20,22 +20,20 @@ export default function Versus() {
             <div className="head">Today — agency &amp; job boards</div>
             <h3 className="title">You pay for the introduction, again and again.</h3>
             <ul>
-              <li>20–25% of first-year salary, every placement</li>
-              <li>Candidates are shared with the practice down the road</li>
-              <li>The pipeline disappears the day you stop the contract</li>
-              <li>Job boards return the same applicants every clinic gets</li>
-              <li>Passive physicians — the ones you actually want — are invisible</li>
+              <li>A commission on every hire, for as long as you keep hiring</li>
+              <li>The pipeline belongs to the vendor, not the practice</li>
+              <li>The day the contract ends, the access ends with it</li>
+              <li>The candidates are shared with the practice down the road</li>
             </ul>
           </div>
           <div className="compare-col you">
             <div className="head">With Huntr — your own system</div>
-            <h3 className="title">You pay once to build it, then it keeps producing.</h3>
+            <h3 className="title">You pay once. The system is yours.</h3>
             <ul>
               <li>A one-time build, no commission per hire</li>
-              <li>Candidates are sourced and contacted only for you</li>
-              <li>The database, sequences, and CRM stay with your practice</li>
-              <li>Direct outreach to physicians who never apply anywhere</li>
-              <li>A warm bench that compounds with every conversation</li>
+              <li>The pipeline lives inside your practice, not ours</li>
+              <li>The system keeps running long after our engagement ends</li>
+              <li>Built only for you, never shared with another practice</li>
             </ul>
           </div>
         </div>

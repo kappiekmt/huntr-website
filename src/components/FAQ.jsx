@@ -3,27 +3,27 @@ import React from 'react'
 const QA = [
   {
     q: 'How is this different from a physician recruiting agency?',
-    a: 'An agency rents you access to their pipeline and charges a percentage of salary every time you hire from it. We build the pipeline inside your practice. When we’re done, the database, the outreach sequences, and the relationships are yours — and the next hire costs nothing.',
+    a: 'An agency rents you access to their pipeline and charges a percentage of salary every time you hire from it. We build a pipeline that lives inside your practice. When we’re done, the system is yours — and the next hire costs nothing.',
   },
   {
     q: 'Who is Huntr built for?',
-    a: 'Multi-physician primary care practices, independent physician groups, ACOs and physician-led management groups in the US that expect to hire two or more physicians over the next 24 months. Family medicine, internal medicine, and pediatrics are where we’re strongest.',
+    a: 'Multi-physician primary care practices, independent physician groups, ACOs, and physician-led management groups in the US that expect to hire two or more physicians over the next 24 months.',
   },
   {
     q: 'Which states do you cover?',
-    a: 'All fifty. Sourcing pulls from the national NPI Registry and individual state medical boards, so your pipeline is always physicians licensed where you actually practice.',
+    a: 'All fifty. Wherever your practice is licensed to operate, Huntr can build a recruitment system for it.',
   },
   {
     q: 'How quickly do hires happen?',
-    a: 'Most practices see the first physician on a call within the first 30 days and a signed offer between months two and four. Pipeline depth keeps growing from there.',
+    a: 'Most practices see their first physician on a call within the first 30 days and a signed offer between months two and four. The system keeps producing long after that.',
   },
   {
     q: 'What if we already work with a recruiter?',
-    a: 'Most of our practices still do when we start. Huntr replaces that line item gradually — every hire through your in-house system is one you don’t pay a commission on. After a year, most clinics retire the agency entirely.',
+    a: 'Most of our practices still do when we start. Huntr replaces that line item gradually — every hire through your own system is one you don’t pay a commission on. After a year, most clinics retire the agency entirely.',
   },
   {
     q: 'Do you guarantee placements?',
-    a: 'We guarantee the system: a sourced market, working outbound, physician calls on your calendar. Whether they sign depends on what you offer them — compensation, autonomy, location, schedule. We build the offer narrative with you up front, and if the math doesn’t work, we’ll say so on the intro call.',
+    a: 'We guarantee the system. Whether physicians sign depends on what you offer them — compensation, autonomy, location, schedule. We work through that with you up front, and if the math doesn’t work, we’ll say so on the intro call.',
   },
 ]
 
