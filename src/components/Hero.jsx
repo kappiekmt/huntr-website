@@ -1,80 +1,97 @@
 import React from 'react'
 
+function IconBuild() {
+  return (
+    <svg className="pc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <path d="M3 7l9-4 9 4-9 4-9-4z" />
+      <path d="M3 7v10l9 4" />
+      <path d="M21 7v10l-9 4" />
+    </svg>
+  )
+}
+function IconConnect() {
+  return (
+    <svg className="pc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <path d="M5 20l5-9 4 7 5-12" />
+      <circle cx="5" cy="20" r="1.3" fill="currentColor" stroke="none" />
+      <circle cx="19" cy="6" r="1.3" fill="currentColor" stroke="none" />
+    </svg>
+  )
+}
+function IconConvert() {
+  return (
+    <svg className="pc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <circle cx="8" cy="9" r="3" />
+      <circle cx="16" cy="9" r="3" />
+      <path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6" />
+      <path d="M14 20c0-3.3 2.7-6 6-6" />
+    </svg>
+  )
+}
+
 export default function Hero({ bookHref }) {
   return (
     <section className="hero" id="top">
       <div className="container hero-grid">
         <div>
-          <span className="eyebrow"><span className="dot" /> Built for US primary care &amp; physician groups</span>
+          <span className="eyebrow">Physician Recruitment Systems · United States</span>
+
           <h1 className="hero-title">
-            Giving US clinics the ability to <span className="accent">recruit their own physicians</span>
+            Giving US clinics the power to <span className="accent">recruit their own physicians.</span>
           </h1>
+
           <p className="hero-sub">
-            Huntr builds in-house physician headhunting systems for primary care
-            clinics and physician groups — so you connect with doctors directly,
-            beyond Indeed, job boards, and six-figure agency retainers.
+            We build internal recruitment systems for primary care groups — so
+            you reach the doctors who never see a job board, and stop paying a
+            commission to an agency on every hire.
           </p>
 
-          <div className="hero-cta-row">
-            <a href={bookHref} className="btn btn-primary" target="_blank" rel="noreferrer">
-              Book a 20-min intro call →
-            </a>
-            <a href="#how" className="btn btn-ghost">See how it works</a>
+          <div className="hero-pillars">
+            <p>Your practice owns the pipeline.</p>
+            <p>Your practice runs the outreach.</p>
+            <p>Your practice keeps the system.</p>
           </div>
 
-          <div className="hero-pillars">
-            <div className="hero-pillar">
-              <span className="check">✓</span>
-              <span>Your clinic owns the pipeline</span>
-            </div>
-            <div className="hero-pillar">
-              <span className="check">✓</span>
-              <span>Your clinic controls the outreach</span>
-            </div>
-            <div className="hero-pillar">
-              <span className="check">✓</span>
-              <span>Your clinic keeps the system</span>
-            </div>
+          <a href={bookHref} className="btn btn-dark" target="_blank" rel="noreferrer">
+            Book a short intro call <span className="arrow">→</span>
+          </a>
+
+          <div style={{ marginTop: 56 }}>
+            <span className="dot-label">Supporting practices across the U.S.</span>
           </div>
         </div>
 
-        <div className="hero-card" aria-hidden="true">
-          <div className="hero-card-head">
-            <span className="hero-card-title">Physician Pipeline · Live</span>
-            <span className="hero-card-badge">This week</span>
+        <div className="process-stack" aria-hidden="true">
+          <svg className="process-svg" viewBox="0 0 400 460" preserveAspectRatio="none">
+            <path
+              d="M 200 90 C 320 130, 320 200, 250 240 S 130 320, 200 380"
+              fill="none"
+              stroke="#C8941A"
+              strokeWidth="1.2"
+              strokeDasharray="3 6"
+              opacity="0.6"
+            />
+          </svg>
+
+          <div className="process-card pc-1">
+            <IconBuild />
+            <div className="pc-label">01 — Build</div>
+            <h3 className="pc-title">Map your full physician market</h3>
+            <p className="pc-body">Every board-certified MD &amp; DO in range</p>
           </div>
 
-          <div className="metric-grid">
-            <div className="metric">
-              <div className="metric-label">Qualified MDs sourced</div>
-              <div className="metric-value">412<span className="delta">+38</span></div>
-            </div>
-            <div className="metric">
-              <div className="metric-label">Calls booked</div>
-              <div className="metric-value">17<span className="delta">+5</span></div>
-            </div>
+          <div className="process-card pc-2">
+            <IconConnect />
+            <div className="pc-label">02 — Connect</div>
+            <h3 className="pc-title">Reach every qualified doctor directly</h3>
+            <p className="pc-body">Outbound that lands, no middleman</p>
           </div>
 
-          <div className="physician-row">
-            <div>
-              <div className="physician-name">Dr. Marcus Allen, MD</div>
-              <div className="physician-meta">Family Medicine · Austin, TX</div>
-            </div>
-            <span className="physician-tag tag-booked">Booked</span>
-          </div>
-          <div className="physician-row">
-            <div>
-              <div className="physician-name">Dr. Priya Shah, DO</div>
-              <div className="physician-meta">Internal Medicine · Phoenix, AZ</div>
-            </div>
-            <span className="physician-tag tag-replied">Replied</span>
-          </div>
-          <div className="physician-row">
-            <div>
-              <div className="physician-name">Dr. Jordan Reyes, MD</div>
-              <div className="physician-meta">Family Medicine · Charlotte, NC</div>
-            </div>
-            <span className="physician-tag tag-warm">Warm lead</span>
+          <div className="process-card pc-3">
+            <IconConvert />
+            <div className="pc-label">03 — Convert</div>
+            <h3 className="pc-title">Hires today, a bench for tomorrow</h3>
+            <p className="pc-body">Relationships you keep, in a system you own</p>
           </div>
         </div>
       </div>

@@ -5,16 +5,11 @@ export default function Nav({ bookHref }) {
     <header className="nav">
       <div className="container nav-inner">
         <a href="#top" className="brand">
-          <span className="brand-mark">H</span>
-          <span>Huntr</span>
+          huntr<span className="brand-dot" />
         </a>
-        <nav className="nav-links">
-          <a href="#how">How it works</a>
-          <a href="#what-you-get">What you get</a>
-          <a href="#vs">Why Huntr</a>
-          <a href="#faq">FAQ</a>
-          <a href={bookHref} className="nav-cta" target="_blank" rel="noreferrer">Book intro call</a>
-        </nav>
+        <a href={bookHref} className="btn btn-dark" target="_blank" rel="noreferrer">
+          Book intro call <span className="arrow">→</span>
+        </a>
       </div>
     </header>
   )

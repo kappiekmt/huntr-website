@@ -3,38 +3,38 @@ import React from 'react'
 const QA = [
   {
     q: 'How is this different from a physician recruiting agency?',
-    a: 'Agencies rent you their pipeline and charge 20–25% of first-year salary every time you hire — typically $30K to $60K per placement. We build the pipeline inside your clinic. After the engagement, the database, the outbound system, and the relationships stay with you. You hire the next physician for $0 in commission.',
+    a: 'An agency rents you access to their pipeline and charges a percentage of salary every time you hire from it. We build the pipeline inside your practice. When we’re done, the database, the outreach sequences, and the relationships are yours — and the next hire costs nothing.',
   },
   {
-    q: 'What size clinic is this for?',
-    a: 'Huntr is built for US primary care clinics and physician groups that plan to hire 2+ physicians over the next 24 months — typically multi-provider practices, independent physician groups, ACOs, and DSO-style management groups in family medicine, internal medicine, and pediatrics.',
+    q: 'Who is Huntr built for?',
+    a: 'Multi-physician primary care practices, independent physician groups, ACOs and physician-led management groups in the US that expect to hire two or more physicians over the next 24 months. Family medicine, internal medicine, and pediatrics are where we’re strongest.',
   },
   {
     q: 'Which states do you cover?',
-    a: 'All 50 states. Our sourcing pulls from the national NPI Registry and individual state license boards, so your pipeline is always physicians licensed where you actually practice.',
+    a: 'All fifty. Sourcing pulls from the national NPI Registry and individual state medical boards, so your pipeline is always physicians licensed where you actually practice.',
   },
   {
-    q: 'How long until our first hire?',
-    a: 'Most clinics see their first physician interview within 30 days of launch and a signed offer within 60–120 days. Pipeline volume scales from there as the system compounds.',
+    q: 'How quickly do hires happen?',
+    a: 'Most practices see the first physician on a call within the first 30 days and a signed offer between months two and four. Pipeline depth keeps growing from there.',
   },
   {
     q: 'What if we already work with a recruiter?',
-    a: 'Most of our clients still do, at first. Huntr replaces the recruiter slowly — every hire that comes through your in-house system is one you don’t pay a commission on. After 12 months, most clinics stop using their agency entirely.',
+    a: 'Most of our practices still do when we start. Huntr replaces that line item gradually — every hire through your in-house system is one you don’t pay a commission on. After a year, most clinics retire the agency entirely.',
   },
   {
     q: 'Do you guarantee placements?',
-    a: 'We guarantee the system: a sourced market, working outbound, booked physician calls. Hires are a function of your offer (comp, location, autonomy) — which is exactly why we build the playbooks with you up front. If physicians won’t join your clinic, no system will fix that, and we’ll tell you on the intro call.',
+    a: 'We guarantee the system: a sourced market, working outbound, physician calls on your calendar. Whether they sign depends on what you offer them — compensation, autonomy, location, schedule. We build the offer narrative with you up front, and if the math doesn’t work, we’ll say so on the intro call.',
   },
 ]
 
 export default function FAQ() {
   return (
-    <section className="section section-cream" id="faq">
+    <section className="section section-paper" id="faq">
       <div className="container">
-        <div className="section-head">
-          <span className="kicker">FAQ</span>
+        <div className="section-head center">
+          <span className="eyebrow center">Common questions</span>
           <h2 className="section-title">
-            Questions clinic owners <span className="accent">always ask</span>
+            What clinic owners <span className="accent">always ask.</span>
           </h2>
         </div>
 
@@ -43,7 +43,7 @@ export default function FAQ() {
             <details className="faq-item" key={item.q} open={i === 0}>
               <summary className="faq-q">
                 <span>{item.q}</span>
-                <span className="faq-icon">+</span>
+                <span className="faq-toggle">+</span>
               </summary>
               <div className="faq-a">{item.a}</div>
             </details>
