@@ -25,7 +25,7 @@ export default function PrivacyPolicy({ bookHref }) {
             <p>
               "Huntr" ("we", "us", "our") operates this website. If you have any
               questions about this policy or how we handle your information, you can
-              reach us at <a href="mailto:kasper@joindigitalventures.com">kasper@joindigitalventures.com</a>.
+              reach us at <a href="mailto:info@gethuntr.com">info@gethuntr.com</a>.
             </p>
           </section>
 
@@ -88,7 +88,7 @@ export default function PrivacyPolicy({ bookHref }) {
               Depending on where you live, you may have the right to access, correct,
               or delete the personal information we hold about you, or to object to
               certain uses of it. To make a request, email us at{' '}
-              <a href="mailto:kasper@joindigitalventures.com">kasper@joindigitalventures.com</a>{' '}
+              <a href="mailto:info@gethuntr.com">info@gethuntr.com</a>{' '}
               and we will respond within a reasonable timeframe.
             </p>
           </section>
@@ -115,7 +115,7 @@ export default function PrivacyPolicy({ bookHref }) {
             <h2>9. Contact</h2>
             <p>
               Questions about this policy? Email us at{' '}
-              <a href="mailto:kasper@joindigitalventures.com">kasper@joindigitalventures.com</a>.
+              <a href="mailto:info@gethuntr.com">info@gethuntr.com</a>.
             </p>
           </section>
         </div>
