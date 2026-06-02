@@ -15,11 +15,11 @@ function CrosshairMark({ size = 22 }) {
   )
 }
 
-export default function Nav({ bookHref }) {
+export default function Nav({ bookHref, homeHref = '#top' }) {
   return (
     <header className="nav">
       <div className="container nav-inner">
-        <a href="#top" className="brand">
+        <a href={homeHref} className="brand">
           <CrosshairMark />
           <span>huntr</span>
         </a>

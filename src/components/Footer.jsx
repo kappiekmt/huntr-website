@@ -24,8 +24,11 @@ export default function Footer() {
             agencies or job boards.
           </p>
         </div>
-        <div className="footer-copy">
-          © {year} Huntr · Built for U.S. primary care
+        <div className="footer-meta">
+          <a href="/privacy" className="footer-link">Privacy Policy</a>
+          <div className="footer-copy">
+            © {year} Huntr · Built for U.S. primary care
+          </div>
         </div>
       </div>
     </footer>
